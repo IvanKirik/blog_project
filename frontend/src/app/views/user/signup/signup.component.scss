@@ -1,0 +1,44 @@
+@import "src/assets/styles/auth-form";
+
+.signup {
+  padding: 101px 0 92px;
+  .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    .auth-checkbox {
+      margin-top: 10px;
+      margin-bottom: 40px;
+      display: flex;
+      align-items: flex-start;
+      max-width: 430px;
+      label {
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        color: #071739;
+        margin-left: 10px;
+        a {
+          color: $blue_text_color;
+          text-decoration: underline;
+        }
+      }
+    }
+    .button {
+      width: 422px;
+    }
+    .link {
+      margin-top: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      color: #071739;
+      a {
+        color: $blue_text_color;
+        margin-left: 7px;
+      }
+    }
+  }
+}

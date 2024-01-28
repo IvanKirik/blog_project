@@ -1,0 +1,324 @@
+@import "../../../../assets/styles/variable";
+@import "../../../../assets/styles/fonts";
+@import "../../../../assets/styles/mixins";
+
+
+.article {
+  padding-top: 87px;
+  padding-bottom: 120px;
+  .container {
+    .crumbs {
+      display: flex;
+      align-items: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #B9D5FD;
+      margin-bottom: 60px;
+      .crumbs-item {
+        span {
+          margin-left: 8px;
+        }
+        margin-right: 8px;
+        &:last-child {
+          color: $blue-text_color;
+          font-weight: 500;
+        }
+      }
+    }
+    .article-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 60px;
+      .article-title {
+        max-width: 607px;
+        .title {
+          @include head-lora-40;
+          font-size: 38px;
+          margin-bottom: 40px;
+        }
+        .subtitle {
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 130%;
+          color: $blue_text_color;
+        }
+
+      }
+      .article-img {
+        img {
+          border-radius: 5px;
+          width: 527px;
+          height: 320px;
+        }
+      }
+    }
+    .article-body {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      .article-text {
+        max-width: 818px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        color: $primary_color;
+      }
+      .sidebar {
+        margin-top: 60px;
+        .sidebar-title {
+          text-align: left;
+          @include head-lora-40;
+          font-size: 26px;
+          margin-bottom: 20px;
+        }
+        .sidebar-items {
+          .sidebar-item {
+            margin-bottom: 60px;
+          }
+        }
+      }
+
+    }
+    .article-social {
+      margin: 61px 0;
+      display: flex;
+      .article-social-text {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: $blue_text_color;
+        margin-right: 20px;
+      }
+      .article-social-items {
+        width: 87px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        svg {
+          cursor: pointer;
+        }
+      }
+    }
+    .commentaries {
+      .commentaries-title {
+        @include head-lora-40;
+        font-size: 38px;
+        margin-bottom: 20px;
+      }
+      .commentaries-link-registration {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #071739;
+        margin-bottom: 60px;
+        a {
+          color: $blue_text_color;
+          cursor: pointer;
+        }
+      }
+      .comment-form {
+        display: flex;
+        flex-direction: column;
+        textarea {
+          padding: 20px 64px 20px 20px;
+          width: 818px;
+          height: 248px;
+          background: #FFFFFF;
+          border: 2px solid #709FDC;
+          border-radius: 3px;
+          outline: none;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          color: $primary_color;
+          margin-bottom: 20px;
+          &::placeholder {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #A8ABA7;
+          }
+        }
+        .button {
+          width: 422px;
+        }
+      }
+      .commentaries-items {
+        display: flex;
+        flex-direction: column;
+        gap: 41px;
+        margin-top: 60px;
+        .commentaries-item {
+          max-width: 854px;
+          .comment-user {
+            display: flex;
+            align-items: flex-start;
+            .user-photo {
+              width: 60px;
+              height: 60px;
+              border-radius: 50%;
+              border: 2px solid $blue_text_color;
+              background-color: rgb(185 213 253);
+              background-image: url("../../../../assets/images/mask.png");
+              background-position: bottom;
+              margin-right: 26px;
+            }
+            .user-data {
+              .user-data-name {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                font-size: 18px;
+                color: $blue_text_color;
+                margin-bottom: 10px;
+              }
+              .user-data-date {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                font-size: 14px;
+                color: #BEBEBE;
+              }
+            }
+          }
+          .comment-text {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            color: $primary_color;
+            margin-top: 15px;
+            margin-bottom: 41px;
+          }
+          .comment-reactions {
+            display: flex;
+            align-items: center;
+            gap: 17px;
+            .comment-reactions-item {
+              display: flex;
+              align-items: center;
+              cursor: pointer;
+              span {
+                margin-right: 5px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                font-size: 14px;
+                color: $primary_color;
+
+                &.active {
+                  color: $blue_text_color;
+                }
+              }
+            }
+          }
+        }
+      }
+      .download-comment {
+        display: flex;
+        align-items: center;
+        margin-top: 61px;
+        cursor: pointer;
+        span {
+          font-family: 'Montserrat',sans-serif;
+          font-weight: 500;
+          font-size: 20px;
+          color: $blue_text_color;
+          margin-right: 12px;
+        }
+      }
+      .spinner {
+        margin-left: 100px;
+        .lds-spinner {
+          color: black;
+          display: inline-block;
+          position: relative;
+          width: 60px;
+          height: 60px;
+          div {
+            transform-origin: 40px 40px;
+            animation: lds-spinner 1.2s linear infinite;
+          }
+        }
+        .lds-spinner div:after {
+          content: " ";
+          display: block;
+          position: absolute;
+          top: 3px;
+          left: 37px;
+          width: 6px;
+          height: 18px;
+          border-radius: 30%;
+          background: #2d50a7;
+        }
+        .lds-spinner div:nth-child(1) {
+          transform: rotate(0deg);
+          animation-delay: -1.1s;
+        }
+        .lds-spinner div:nth-child(2) {
+          transform: rotate(30deg);
+          animation-delay: -1s;
+        }
+        .lds-spinner div:nth-child(3) {
+          transform: rotate(60deg);
+          animation-delay: -0.9s;
+        }
+        .lds-spinner div:nth-child(4) {
+          transform: rotate(90deg);
+          animation-delay: -0.8s;
+        }
+        .lds-spinner div:nth-child(5) {
+          transform: rotate(120deg);
+          animation-delay: -0.7s;
+        }
+        .lds-spinner div:nth-child(6) {
+          transform: rotate(150deg);
+          animation-delay: -0.6s;
+        }
+        .lds-spinner div:nth-child(7) {
+          transform: rotate(180deg);
+          animation-delay: -0.5s;
+        }
+        .lds-spinner div:nth-child(8) {
+          transform: rotate(210deg);
+          animation-delay: -0.4s;
+        }
+        .lds-spinner div:nth-child(9) {
+          transform: rotate(240deg);
+          animation-delay: -0.3s;
+        }
+        .lds-spinner div:nth-child(10) {
+          transform: rotate(270deg);
+          animation-delay: -0.2s;
+        }
+        .lds-spinner div:nth-child(11) {
+          transform: rotate(300deg);
+          animation-delay: -0.1s;
+        }
+        .lds-spinner div:nth-child(12) {
+          transform: rotate(330deg);
+          animation-delay: 0s;
+        }
+        @keyframes lds-spinner {
+          0% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+
+      }
+
+      .no-comment {
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: $blue_text_color;
+      }
+    }
+  }
+}
+
+

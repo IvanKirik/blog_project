@@ -1,0 +1,51 @@
+@import "src/assets/styles/variable";
+.header {
+  padding-top: 41px;
+  padding-bottom: 40px;
+  font-family: Montserrat, sans-serif;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header-logo {
+      cursor: pointer;
+    }
+    .header-menu {
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 429px;
+        li {
+          a {
+            font-weight: 500;
+            font-size: 16px;
+            color: $primary_color;
+            &.active {
+              color: $blue_text_color;
+            }
+          }
+
+        }
+      }
+    }
+    .phone {
+      font-weight: 500;
+      font-size: 16px;
+      color: $primary_color;
+    }
+    .header-profile {
+      font-weight: 500;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      span {
+        color: $primary_color;
+      }
+      img {
+        margin-right: 9px;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: $container_width;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+ul li {
+  list-style: none;
+}
+
+.button {
+  padding: 15px 40px;
+  width: 163px;
+  height: 51px;
+  background: #709FDC;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: $blue_text_color;
+  margin-top: 40px;
+}
+p {
+  margin-bottom: 20px;
+}

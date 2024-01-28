@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6bc9a91e-e1de-4c00-a480-22d3ea5ab188" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/core/auth/auth-forward.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/core/auth/auth.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/core/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/shared/components/article-card/article-card.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/shared/components/article-card/article-card.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/shared/components/article-card/article-card.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/shared/services/article.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/shared/services/category.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/shared/shared.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/articles/article/article.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/articles/article/article.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/articles/article/article.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/articles/articles-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/articles/articles.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/articles/blog/blog.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/articles/blog/blog.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/articles/blog/blog.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/user/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/user/login/login.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/user/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/user/signup/signup.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/user/signup/signup.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/user/signup/signup.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/user/user-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/views/user/user.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/Next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/Previous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/main/alena.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/main/benefits-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/main/ellipse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/main/img-banner-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/main/img-banner-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/main/img-banner-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/main/maria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/main/rev-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/main/rev-prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/main/services-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/main/services-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/main/services-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/main/services-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/main/stas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/user/login-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/user/signup-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/styles/_auth-form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/styles/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/styles/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/svg/Logotype.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/svg/User.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/svg/arrow_link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/svg/fb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/svg/inst.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/svg/vk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/action-user-article.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/active-params-article.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/active-params.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/article-item.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/article.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/articles.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/categories.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/comment-article.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/default-response.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/get-comments.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/login-response.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/order.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/services-category.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/user.type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/shared/layout/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/layout/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/shared/layout/footer/footer.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/layout/footer/footer.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/shared/layout/footer/footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/layout/footer/footer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/shared/layout/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/layout/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/shared/layout/header/header.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/layout/header/header.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/shared/layout/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/layout/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/shared/layout/layout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/layout/layout.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/views/main/main.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/views/main/main.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/views/main/main.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/views/main/main.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/views/main/main.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/views/main/main.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/styles/_variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/_variable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+        <option value="SCSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2KdrvaaMQgLo0cvK07d5LVDLixq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Программирование/pet_projects/ng_blog",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\Программирование\\diplom_project\\frontend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Программирование\diplom_project\frontend\src\app\core\auth" />
+      <recent name="D:\Программирование\diplom_project\backend\public\images" />
+      <recent name="D:\Программирование\diplom_project\backend" />
+      <recent name="D:\Программирование\diplom_project\frontend\src\assets\images" />
+      <recent name="D:\Программирование\diplom_project\backend\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Программирование\diplom_project\frontend\src\app\shared\components" />
+      <recent name="D:\Программирование\diplom_project\frontend\src\app\shared" />
+      <recent name="D:\Программирование\diplom_project\frontend\src\assets\images\main" />
+      <recent name="D:\Программирование\diplom_project\frontend\src\assets" />
+      <recent name="D:\Программирование\diplom_project\frontend\src\assets\styles" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bc9a91e-e1de-4c00-a480-22d3ea5ab188" name="Changes" comment="" />
+      <created>1674315533667</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674315533667</updated>
+      <workItem from="1674315535642" duration="12370000" />
+      <workItem from="1674388610657" duration="14239000" />
+      <workItem from="1674673562084" duration="2903000" />
+      <workItem from="1674753508203" duration="8683000" />
+      <workItem from="1674795423235" duration="20000" />
+      <workItem from="1674837633265" duration="7776000" />
+      <workItem from="1674904637937" duration="20339000" />
+      <workItem from="1674986688613" duration="16054000" />
+      <workItem from="1675003730336" duration="8961000" />
+      <workItem from="1675094006917" duration="11130000" />
+      <workItem from="1675140952084" duration="126000" />
+      <workItem from="1675191360863" duration="172000" />
+      <workItem from="1675347604459" duration="8703000" />
+      <workItem from="1675543715612" duration="3900000" />
+      <workItem from="1675596708842" duration="24962000" />
+      <workItem from="1675659455699" duration="87000" />
+      <workItem from="1675693241286" duration="5618000" />
+      <workItem from="1675745670183" duration="3000" />
+      <workItem from="1675789716358" duration="2380000" />
+      <workItem from="1675832643597" duration="4000" />
+      <workItem from="1675872964915" duration="1625000" />
+      <workItem from="1675875196008" duration="681000" />
+      <workItem from="1675881838122" duration="2464000" />
+      <workItem from="1675918542305" duration="445000" />
+      <workItem from="1675954305383" duration="17171000" />
+      <workItem from="1676906409971" duration="227000" />
+      <workItem from="1676906716134" duration="166000" />
+      <workItem from="1676907405727" duration="17000" />
+      <workItem from="1676918392678" duration="3454000" />
+      <workItem from="1676922843454" duration="22000" />
+      <workItem from="1677857309909" duration="60000" />
+      <workItem from="1678288836576" duration="269000" />
+      <workItem from="1678289137392" duration="248000" />
+      <workItem from="1680383600738" duration="227000" />
+      <workItem from="1680383876681" duration="177000" />
+      <workItem from="1684213456801" duration="1018000" />
+      <workItem from="1684586224365" duration="52000" />
+      <workItem from="1684746143379" duration="615000" />
+      <workItem from="1684785899406" duration="6000" />
+      <workItem from="1684817988886" duration="27000" />
+      <workItem from="1706108148625" duration="494000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

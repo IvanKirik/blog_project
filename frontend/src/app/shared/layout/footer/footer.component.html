@@ -1,0 +1,60 @@
+<footer class="footer">
+  <div class="container">
+      <div class="menu">
+        <div class="logo">
+          <img src="../../../../assets/svg/Logotype.svg" alt="logo">
+        </div>
+        <ul>
+          <li><a routerLink="/" fragment="services">Услуги</a></li>
+          <li><a routerLink="/" fragment="benefits">О нас</a></li>
+          <li><a routerLink="/blog" routerLinkActive="active">Статьи</a></li>
+          <li><a routerLink="/" fragment="reviews">Отзывы</a></li>
+          <li><a routerLink="/" fragment="contacts">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="contacts">
+        <div class="contacts-item">
+          <div class="contacts-item-header">
+            Адрес
+          </div>
+          <div class="contacts-item-text">
+            Пресненская наб., 12, Москва, Россия, 123317.
+          </div>
+        </div>
+        <div class="contacts-item">
+          <div class="contacts-item-header">
+            Телефон
+          </div>
+          <div class="contacts-item-text">
+            <a href="tel:+7 (499) 343-13-34">+7 (499) 343-13-34</a>
+          </div>
+          <button (click)="createOrder()">Перезвоните мне</button>
+        </div>
+        <div class="contacts-item">
+          <div class="contacts-item-header">
+            E-mail
+          </div>
+          <div class="contacts-item-text email">
+            <a href="mailto:info@itstorm.com">info@itstorm.com</a>
+          </div>
+        </div>
+        <div class="contacts-item">
+          <div class="contacts-item-header">
+            Мы в социальных сетях:
+          </div>
+          <div class="contacts-item-icons">
+            <a href="https://vk.com/"><img src="../../../../assets/svg/vk.svg" alt="vk"></a>
+            <a href="https://www.facebook.com/"><img src="../../../../assets/svg/fb.svg" alt="fb"></a>
+            <a href="https://www.instagram.com/"><img src="../../../../assets/svg/inst.svg" alt="inst"></a>
+          </div>
+        </div>
+      </div>
+    <div class="copyright">
+      © 2022. Все права защищены
+    </div>
+  </div>
+</footer>
+
+<ng-template #popup>
+  <app-dialog [isLightPopup]="isLightPopup" (closePopup)="closePopup($event)"></app-dialog>
+</ng-template>

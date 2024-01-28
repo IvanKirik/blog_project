@@ -1,0 +1,44 @@
+<div class="order-popup">
+  <div class="close" (click)="close()">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <line x1="0.935622" y1="0.649994" x2="12.9564" y2="12.6708" stroke="#BEBEBE" stroke-linecap="round"/>
+      <line x1="12.9236" y1="0.629775" x2="0.902769" y2="12.6506" stroke="#BEBEBE" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <div class="order-popup-content" *ngIf="!sending">
+    <div *ngIf="!isLightPopup" class="order-popup-title">Заявка на услугу</div>
+    <div *ngIf="isLightPopup" class="order-popup-title">Закажите бесплатную консультацию!</div>
+    <div class="form" [formGroup]="orderForm">
+      <div class="auth-input" *ngIf="!isLightPopup">
+        <select formControlName="service" [(ngModel)]="defaultOption">
+          <option  *ngFor="let option of servicesItems" [value]="option.name">{{option.name}}</option>
+        </select>
+      </div>
+      <div class="auth-input">
+        <input class="input" type="text" placeholder="Ваше имя"
+               formControlName="name"
+               [ngStyle]="{'border-color': orderForm.get('name')?.invalid &&
+          (orderForm.get('name')?.dirty || orderForm.get('name')?.touched) ? 'red' : ''}"
+        >
+      </div>
+      <div class="auth-input">
+        <input class="input" type="text"  placeholder="Ваш номер телефона" [imask]="phoneMask"
+               formControlName="phone"
+               [ngStyle]="{'border-color': orderForm.get('phone')?.invalid &&
+          (orderForm.get('phone')?.dirty || orderForm.get('phone')?.touched) ? 'red' : ''}"
+        >
+      </div>
+      <button class="button" (click)="addOrder()" [disabled]="orderForm.invalid">
+        <span *ngIf="!isLightPopup">Оставить заявку</span>
+        <span *ngIf="isLightPopup">Заказать консультацию</span>
+      </button>
+      <div class="error" *ngIf="error">Произошла ошибка при отпраке формы, попробуйте еще раз!</div>
+    </div>
+  </div>
+  <div class="order-thanks" *ngIf="sending">
+    <div class="order-popup-title">Спасибо за вашу заявку!</div>
+    <div class="order-popup-text">Мы свяжемся с вами при первой же возможности.</div>
+    <button class="button" (click)="close()">Окей</button>
+  </div>
+</div>
+

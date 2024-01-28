@@ -1,0 +1,174 @@
+@import "../../../../assets/styles/mixins";
+@import "../../../../assets/styles/fonts";
+@import "../../../../assets/styles/variable";
+
+.blog {
+  padding-bottom: 134px;
+  .container {
+    .blog-title {
+      @include head-lora-40;
+      font-size: 38px;
+      margin-top: 79px;
+      margin-bottom: 40px;
+    }
+    .blog-filter {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 40px;
+      .filter-items {
+        display: flex;
+        gap: 20px;
+        min-height: 38px;
+        .filter-item {
+          padding: 8px 20px;
+          background: #FFFFFF;
+          border: 2px solid #709FDC;
+          border-radius: 5px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          color: $blue_text_color;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          span {
+            margin-right: 9px;
+          }
+          svg {
+            cursor: pointer;
+          }
+
+        }
+      }
+      .blog-sort {
+        cursor: pointer;
+        .blog-sort-head {
+          display: flex;
+          align-items: center;
+          span {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            color: $primary_color;
+            margin-right: 10px;
+          }
+        }
+        .blog-sort-body {
+          display: none;
+          .blog-sort-body-item {
+            min-height: 45px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            color: #BEBEBE;
+          }
+        }
+
+        &.open {
+          position: absolute;
+          right: 140px;
+          z-index: 100;
+          .blog-sort-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #B9D5FD;
+            border-radius: 5px 5px 0 0;
+            width: 257px;
+            height: 45px;
+            padding: 0 23px;
+            border: 2px solid #B9D5FD;
+            box-sizing: border-box;
+          }
+          .blog-sort-body {
+            display: block;
+            z-index: 5;
+            background-color: #FFFFFF;
+            box-sizing: border-box;
+            border-radius: 0 0 5px 5px;
+            .blog-sort-body-item {
+              border-right: 2px solid #B9D5FD;
+              border-left: 2px solid #B9D5FD;
+              padding: 0 23px;
+              box-sizing: border-box;
+              width: 257px;
+              display: flex;
+              align-items: center;
+              label {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                span {
+                  cursor: pointer;
+                }
+                svg {
+                  cursor: pointer;
+                }
+                input {
+                  display: none;
+                }
+              }
+              .open {
+                span {
+                  color: $primary_color;
+                }
+              }
+
+              &:last-child {
+                border-radius: 0 0 5px 5px;
+                border-right: 2px solid #B9D5FD;
+                border-left: 2px solid #B9D5FD;
+                border-bottom: 2px solid #B9D5FD;
+              }
+            }
+          }
+        }
+
+
+      }
+    }
+    .blog-items {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-content: space-between;
+      gap: 25px;
+      .blog-item {
+        margin-bottom: 15px;
+      }
+    }
+    .pagination {
+      margin-top: 74px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .pagination-arrow {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        &.disabled {
+          cursor: not-allowed;
+        }
+      }
+      .pagination-pages {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+        margin-left: 30px;
+        .pagination-page {
+          margin: 0 20px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 400;
+          font-size: 20px;
+          color: $primary_color;
+          cursor: pointer;
+          &.active {
+            color: $blue_text_color;
+          }
+        }
+      }
+    }
+
+  }
+}

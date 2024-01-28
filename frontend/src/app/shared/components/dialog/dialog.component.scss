@@ -1,0 +1,78 @@
+@import "src/assets/styles/variable";
+@import "src/assets/styles/mixins";
+@import "src/assets/styles/auth-form";
+
+.order-popup {
+  width: 727px;
+  height: 489px;
+  background: #FFFFFF;
+  border: 1.5px solid #709FDC;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  .close {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    cursor: pointer;
+  }
+  .order-popup-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .order-popup-title {
+      @include head-lora-40;
+      font-size: 38px;
+      margin-bottom: 20px;
+      max-width: 406px;
+      text-align: center;
+      line-height: 130%;
+    }
+    .form {
+      width: 422px;
+      .button {
+        width: 100%;
+        margin-top: 20px;
+      }
+      .error {
+        font-family: Montserrat, sans-serif;
+        color: red;
+        font-size: 11px;
+        text-align: center;
+        margin-top: 5px;
+      }
+    }
+  }
+  .order-thanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .order-popup-title {
+      @include head-lora-40;
+      font-size: 38px;
+      margin-bottom: 20px;
+    }
+    .order-popup-text {
+      font-family: Montserrat, sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      text-align: center;
+      color: $primary_color;
+      margin-bottom: 40px;
+    }
+    .button {
+      width: 73px;
+      height: 36px;
+      padding: 0;
+      margin: 0 auto;
+    }
+
+  }
+
+
+}
